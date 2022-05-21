@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_contact_developer"
+        android:orderInCategory="99"
+        android:title="@string/action_contact_developer"
+        android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_color_mode"
+        android:orderInCategory="1"
+        android:title="@string/mode"
+        android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="never" />
+</menu>

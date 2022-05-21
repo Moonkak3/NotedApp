@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">noted</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_tasks">tasks</string>
+    <string name="menu_tags">tags</string>
+    <string name="menu_diary">diary</string>
+    <string name="menu_calendar">calendar</string>
+    <string name="menu_schedule">schedule</string>
+
+    <string name="your_web_client_id">944326626253-ng6ppm0cp2v8cdb541pe2c2npaoq5hqf.apps.googleusercontent.com</string>
+    <string name="filter">Filter</string>
+    <string name="sort">Sort</string>
+    <string name="mode">Mode</string>
+    <string name="set_due_time">Set Due-Time</string>
+    <string name="set_due_date">Set Due-Date</string>
+    <string name="task_name">task name</string>
+    <string name="task_description">task description</string>
+    <string name="no_tasks_left">No tasks left!</string>
+    <string name="loading_tasks">Loading tasks...</string>
+    <string name="delete">Delete</string>
+    <string name="loading_tags">Loading tags...</string>
+    <string name="add_a_tag_to_start">Add a tag to start</string>
+    <string name="set_color">Set Color</string>
+
+    <string name="filterdialog_back">Back</string>
+    <string name="filterdialog_clear"></string>
+    <string name="loading_diary_entries">Loading diary entries...</string>
+    <string name="no_diary_entries_yet">No diary entries yet</string>
+    <string name="entry_description">entry description</string>
+    <string name="entry_title">entry title</string>
+    <string name="set_mood">Set mood:</string>
+    <string name="this_day_s_mood">This day\'s mood:</string>
+    <string name="set_date">Set Date</string>
+    <string name="entry_date">Entry date:</string>
+    <string name="logout">logout</string>
+    <string name="sign_out">sign out</string>
+    <string name="action_contact_developer">Contact Developer</string>
+</resources>

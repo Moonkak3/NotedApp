@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.notedapp">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupOnly="true"
+        android:icon="@drawable/ic_notedapp_colorful"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_notedapp_colorful"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NotedApp">
+
+        <activity
+            android:name=".login.SplashScreenActivity"
+            android:theme="@style/Theme.NotedApp.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".login.OnBoarding"/>
+
+        <activity android:name=".login.LoginActivity"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.NotedApp.NoActionBar">
+        </activity>
+
+        <activity android:name=".ui.tasks.EditTaskActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.NotedApp.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity android:name=".ui.tags.EditTagActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.NotedApp.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity android:name=".ui.diary.EditDiaryEntryActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.NotedApp.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

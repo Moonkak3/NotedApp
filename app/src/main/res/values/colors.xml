@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkGrey">#292929</color>
+    <color name="lightGrey">#F0F0F0</color>
+    <color name="grey">#353535</color>
+
+    <color name="primaryColor">#3f51b5</color>
+    <color name="primaryColorLight">#9fa8da</color>
+    <color name="primaryColorDark">#283593</color>
+
+    <color name="secondaryColor">#03a9f4</color>
+    <color name="secondaryColorLight">#81d4fa</color>
+    <color name="secondaryColorDark">#0277bd</color>
+
+    <color name="alarmRed">#D0342C</color>
+    <color name="calmGreen">#00FA9A</color>
+
+    <color name="filterdialog_background">#eae7e7</color>
+    <color name="filterdialog_toolbar">@color/secondaryColor</color>
+    <color name="filterdialog_toolbar_text">@color/darkGrey</color>
+    <color name="filterdialog_searchbox_border">@color/white</color>
+    <color name="filterdialog_searchbox_background">#DDD4D4</color>
+    <color name="filterdialog_searchbox_text">@color/darkGrey</color>
+    <color name="filterdialog_searchbox_hint">#747373</color>
+    <color name="filterdialog_searchbox_icon">@color/secondaryColor</color>
+    <color name="filterdialog_row_text">@color/colorTextStandart</color>
+
+</resources>
